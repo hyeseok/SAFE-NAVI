@@ -469,7 +469,7 @@ public class GoHomeActivity extends AppCompatActivity implements TMapGpsManager.
                     int isExit = db.isSelect();
                     if (isExit == 0) {
                         db.insert(end);
-//                        /Log.e("aaa", "저장");
+//                        //Log.e("aaa", "저장");
                     }
 //                    else
 //                        Log.e("isExit", "'도착지'는 이미 DB에 등록되어있습니다.");
